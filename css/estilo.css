@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #000000;
 	padding: 10px;
 	text-align: center;
 	
@@ -185,7 +185,12 @@ h1,h2,h3,h4,h5{
 	margin: 15px 0;
 	font-size: 2.8em;
 	font-family: 'Sacramento',cursive;
+	color: #ffffff;
 	
+}
+
+.main_txt{
+	color: #ffffff;
 }
 .column__title{
 	font-size: 1.3em;
@@ -200,7 +205,7 @@ h1,h2,h3,h4,h5{
 	text-decoration: none;
 	width: 120px;
 	background: #DE423A;
-	color: #fff;
+	color: #ffffff;
 	padding:10px;
 	margin: 10px auto;
 	
@@ -291,6 +296,7 @@ h1,h2,h3,h4,h5{
 	}
 	.column--50{
 		width: 49%;
+		
 	}
 	.column--50--25{
 		width: 49%;
@@ -306,6 +312,9 @@ h1,h2,h3,h4,h5{
 	}
 	.main__about_description .btn{
 		margin: 0;
+		background-color: #0798ff;
+		color: #ffffff;
+		
 	}
 	.today-special .column {
 		border: 5px solid #ddd;
@@ -397,6 +406,50 @@ h1,h2,h3,h4,h5{
 	
 	}
 }
+
+
+
+
+
+.contenedorP{
+	display: flex;
+	background-color: #000000;
+}
+
+.imagenes-gale1{
+	display: flex;
+	padding: 25px;
+	border-radius: 100px;
+	height:500px ;
+	width:500px	;
+	margin-left: 45px;
+}
+
+.imagenes-gale2{
+	display: flex;
+	padding: 25px;
+	border-radius: 100px;
+	height:500px ;
+	width:500px	;
+
+}
+
+
+.imagenes-gale3{
+	display: flex;
+	padding: 25px;
+	border-radius: 100px;
+	height:500px ;
+	width:500px	;
+}
+
+.contenedorubi{
+	height: 500px;
+	width: 500px;
+}
+
+
+
 
 
 
